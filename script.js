@@ -4,6 +4,7 @@ const botaogerar = document.querySelector('.botao-gerar');
 const mensagemerror = document.querySelector('#mensagem-error');
 
 
+
 botaogerar.addEventListener('click', (e) => {
     e.preventDefault();
     const phone = whatsapp.value.trim();
@@ -23,3 +24,4 @@ botaogerar.addEventListener('click', (e) => {
         }, 5000);
     }
 });
+
