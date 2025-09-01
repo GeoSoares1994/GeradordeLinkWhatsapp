@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerador de Link</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+        <div class="container">
+            <h1>Gerador de Link do Whatsapp</h1>
+            <form>
+                <label for="phone">Número do Whatsapp com DDD:</label>
+                <input type="text" id="phone" placeholder="Digite o número com DDD (somente números)" required>
+                <label>Mensagem (Opicional):</label>
+                <textarea placeholder="digite a mensagem (opicional)"></textarea>
+                <button class="botao-gerar" type="submit">Gerar Link</button>
+                <p id="mensagem-error"></p>
+            </form>
+        </div>
+    </main>
+</body>
+<script src="./script.js"></script>
+</html>

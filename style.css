@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #285959;
+}
+
+.container {
+    width: 50vw;
+    border: solid 2px #0F2626;
+    padding: 50px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    background-color: #F2F2F2;
+
+}
+
+.container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #1FA60A;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 10px auto;
+
+}
+
+
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+form button {
+    padding: 10px;
+    background-color: #1FA60A;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #1A7A0A;
+}
+
+#mensagem-error{
+    margin-top: 15px;
+    color: #0F2626;
+    text-align: center;
+    font-size: 20px;
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 80vw;
+        padding: 20px;
+    }
+    .container h1 {
+        font-size: 1.5em;
+    }
+}
